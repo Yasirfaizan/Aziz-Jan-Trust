@@ -91,8 +91,7 @@ export default function Footer() {
             Industries.
           </p>
           <p>
-            Made with <span aria-hidden="true">{"\u2665"}</span> for the people
-            of Peshawar
+            Developed By Yasir Faizan
           </p>
         </div>
       </div>
