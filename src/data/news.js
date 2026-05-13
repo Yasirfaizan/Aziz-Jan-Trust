@@ -1,3 +1,10 @@
+import koreanImage1 from "../assets/Korean/Korean Image 1.jpg";
+import koreanImage2 from "../assets/Korean/Korean Image 2.jpg";
+import koreanImage3 from "../assets/Korean/Korean Image 3.jpg";
+import koreanImage4 from "../assets/Korean/Korean Image 4.jpg";
+import koreanImage5 from "../assets/Korean/Korean Image 5.jpg";
+import unicefImage from "../assets/UNICEF 1.jpg";
+
 export const newsItems = [
   {
     title: "Grand Entrance Exam: Over 5,000 Students Participate",
@@ -12,16 +19,14 @@ export const newsItems = [
     date: "March 2024",
     description:
       "Korean Ambassador Park Ki Jun commended the Trust for equipping youth with modern IT skills.",
-    image:
-      "https://azizgrp.com/wp-content/uploads/2025/04/476645400_122212218080153270_4088494115954248606_n-640x426.jpg",
+    image: koreanImage5,
   },
   {
     title: "Afan Aziz Appointed to UNICEF Pakistan Advisory Council",
     date: "December 2024",
     description:
       "CEO Afan Aziz joins UNICEF Pakistan Advisory Council as a member dedicated to advancing child rights in Pakistan.",
-    image:
-      "https://azizgrp.com/wp-content/uploads/2025/04/477787431_122212217606153270_6945357563002075242_n-640x426.jpg",
+    image: unicefImage,
   },
   {
     title: "Aziz Jan and Saylani Trusts Launch Free Mass IT Courses",
@@ -30,5 +35,33 @@ export const newsItems = [
       "The partnership launched in Peshawar with 3,000 students at the inaugural exam at Qayyum Stadium and the opening of the Mohsin and Huma IT Centre.",
     image:
       "https://azizgrp.com/wp-content/uploads/2025/04/480693162_485026737994142_7031153777701290084_n-640x336.jpg",
+  },
+];
+
+export const koreanAmbassadorAlbum = [
+  {
+    src: koreanImage1,
+    alt: "Korean Ambassador tour at MHIT Centre, image 1",
+    caption: "Arrival and warm welcome",
+  },
+  {
+    src: koreanImage2,
+    alt: "Korean Ambassador tour at MHIT Centre, image 2",
+    caption: "Exploring the learning spaces",
+  },
+  {
+    src: koreanImage3,
+    alt: "Korean Ambassador tour at MHIT Centre, image 3",
+    caption: "Meeting students and team members",
+  },
+  {
+    src: koreanImage4,
+    alt: "Korean Ambassador tour at MHIT Centre, image 4",
+    caption: "A closer look at the programs",
+  },
+  {
+    src: koreanImage5,
+    alt: "Korean Ambassador tour at MHIT Centre, image 5",
+    caption: "Highlights from the MHIT visit",
   },
 ];
