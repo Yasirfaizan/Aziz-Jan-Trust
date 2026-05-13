@@ -91,9 +91,13 @@ export default function Footer() {
             Industries.
           </p>
           <p>
+<<<<<<< HEAD
             <a href="https://www.linkedin.com/in/yasir-faizan-shalmani/">
               Developed by Yasir Faizan
             </a>
+=======
+            Developed By Yasir Faizan
+>>>>>>> 7d4c1e3130e09065e75cf788feee155cd0c277b3
           </p>
         </div>
       </div>
