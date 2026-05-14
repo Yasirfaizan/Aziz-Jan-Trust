@@ -21,7 +21,7 @@ export default function Layout() {
       <BackToTop />
       <a
         href="https://wa.me/923106694469"
-        className="fixed bottom-6 right-6 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white shadow-soft transition hover:-translate-y-1 hover:bg-primary/90"
+        className="fixed bottom-6 right-6 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500 text-white shadow-soft transition hover:-translate-y-1 hover:bg-primary/90"
         aria-label="WhatsApp"
       >
         <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden="true">
