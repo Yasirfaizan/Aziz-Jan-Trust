@@ -91,7 +91,21 @@ export default function Footer() {
             Industries.
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/yasir-faizan-shalmani/">
+            <a
+              href="https://www.linkedin.com/in/yasir-faizan-shalmani/"
+              className="inline-flex items-center gap-2"
+              aria-label="Developed by Yasir Faizan on LinkedIn"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                className="h-3 w-3"
+                aria-hidden="true"
+              >
+                <path
+                  fill="currentColor"
+                  d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.78v2.18h.07c.67-1.28 2.3-2.62 4.73-2.62C21.1 7.56 24 10 24 14.92V24h-5v-8.05c0-1.92-.03-4.39-2.68-4.39-2.69 0-3.1 2.1-3.1 4.26V24h-5V8z"
+                />
+              </svg>
               Developed by Yasir Faizan
             </a>
           </p>
